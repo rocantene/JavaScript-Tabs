@@ -11,12 +11,12 @@ window.addEventListener('DOMContentLoaded', function () {
     /* Функции */
 
     function hideTabContent(a) { // Функция, скрывающая вкладки
-        for (let i = a; i < tabContent.length; i++) { // Показываем только первую вкладку
+        for (let i = a; i < tabContent.length; i++) {
             tabContent[i].classList.remove('show');
             tabContent[i].classList.add('hide');
         }
     }
-    hideTabContent(1);
+    hideTabContent(1); // Показываем только первую вкладку
 
 
     function showTabContent(b) { // Показываем контент вкладок
